@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Nav(){
+function Nav(props){
     return(
         <nav className='navbar navbar-dark bg-dark'>
           <a href='' className = 'text-white'>
-            {/*this.titulo*/}
+            {props.titulo}
           </a>
         </nav>
     );
